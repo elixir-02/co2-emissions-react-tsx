@@ -1,0 +1,7 @@
+declare module 'papaparse'
+declare module '@amcharts/amcharts4/plugins/data'
+declare module 'd3-fetch'
+declare module 'd3-scale'
+declare module 'react-simple-maps'
+declare module 'd3-geo'
+declare module 'react-router-dom'
