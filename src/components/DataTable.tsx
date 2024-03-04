@@ -24,6 +24,7 @@ interface DataRow {
   [year: string]: string;
 }
 
+
 const DataTable: React.FC<DataTableProps> = ({ data, rowsPerPage: initialRowsPerPage }) => {
   const [sortedData, setSortedData] = useState<DataRow[]>(data);
   const [sortBy, setSortBy] = useState<string | null>(null);
